@@ -18,8 +18,8 @@ from sklearn.metrics import f1_score
 USE_CUDA = torch.cuda.is_available()
 
 #reproducibility
-SEED = 423
-random.seed(SEED)
-torch.manual_seed(SEED)
-torch.cuda.manual_seed(SEED)
-torch.backends.cudnn.deterministic = True
+# SEED = 423
+# random.seed(SEED)
+# torch.manual_seed(SEED)
+# torch.cuda.manual_seed(SEED)
+# torch.backends.cudnn.deterministic = True
